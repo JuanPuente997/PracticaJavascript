@@ -2,7 +2,8 @@
 
 let cantidad = 0;
 let total = 0
-let anotador=0;
+let lista=0;
+
 
 
 let fideos = 200;
@@ -17,16 +18,16 @@ if(productos == 'fideos'){
     alert('el valor de los fideos es de $'+fideos+'xunidad')
     cantidad = parseInt(prompt('ingrese cantida deseada'))
     if(cantidad > 0){
-        total = alert('total $'+cantidad*fideos)
-       
+    total = alert('total $'+cantidad*fideos)
+       lista=console.log('fideos $'+productos*cantidad)
     }
     }
 
 else if(productos == 'galletitas'){
     alert('el valor de las galletitas es de $'+galletitas+'xunidad')
     cantidad = parseInt(prompt('ingrese la cantidad deseada'))
-        if(cantidad > 0){
-        total =alert('total $'+cantidad*galletitas)
+    if(cantidad > 0){
+    total =alert('total $'+cantidad*galletitas)
 
         }
         }
