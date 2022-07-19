@@ -1,14 +1,135 @@
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                                                  PRUEBA 2
+function sumaDelTotal(articulo, cantidad){
+    let resultado=0;
+    resultado=console.log(articulo*cantidad);
+}
+let pan = 150;
+let leche = 180;
+let azucar = 130;
+let cantidad= 0;
+
+alert('bienvenido a la tienda');
+alert('en stock tenemos leche pan y azucar');
+let ingresePrimerArticulo = prompt('ingrese el primer articulo al finalizar la compra ingrese FIN')
+
+if(ingresePrimerArticulo != 'FIN'){
+    if(ingresePrimerArticulo == 'pan'){
+        alert('el valor del pan es de $'+pan+'xkg');
+        cantidad=parseInt(prompt('ingrese la cantidad deseada'));
+        if(cantidad>0){
+            sumaDelTotal(pan,cantidad);
+        }
+    }
+    if(cantidad>0){
+       otroArticulo= prompt('ingrese otro articulo')
+       if(otroArticulo != 'FIN'){
+         
+       }
+    }
+    if(ingresePrimerArticulo == 'leche'){
+        alert('el valor de la leche es de $'+leche+' x unidad');
+        cantidad=parseInt(prompt('ingrese la cantidad deseada'));
+        if(cantidad>0){
+            sumaDelTotal(leche,cantidad);
+        }
+    }
+    if(ingresePrimerArticulo == 'azucar'){
+        alert('el valor del pan es de $'+azucar+' x unidad');
+        cantidad=parseInt(prompt('ingrese la cantidad deseada'));
+        if(cantidad>0){
+            sumaDelTotal(azucar,cantidad);
+        }
+    }
+}
+*/
+
+
+
+
+
+
+/*                                 PRUEBA 1
+function total(producto, cantidad){
+    let resultado = producto * cantidad;
+    console.log(resultado);
+}
+
+let pan = 150;
+let leche = 120;
+let azucar = 80;
+let solicitarOtroProducto = 0;
+
+producto=prompt('ingrese un producto, en stock tenemos leche pan y azucar, al finalizar la compra escriba FIN');
+while(true){
+   
+if(producto != 'FIN'){
+    
+    if(producto == 'pan'){
+       
+        cantidad = parseInt(prompt('ingrese la cantidad deseada'));
+        if(cantidad > 0){
+            total = cantidad*pan;
+            resultado = console.log('el total es de $'+total);
+        }
+    }
+} 
+if(cantidad>0){
+    solicitarOtroProducto= prompt('desea solicitar otro producto?')
+}
+
+if(solicitarOtroProducto != 'FIN'){
+    if(solicitarOtroProducto == 'leche'){
+        cantidad = parseInt(prompt('ingrese la cantidad deseada'));
+        if(cantidad>0){
+            total = cantidad*leche
+            resultado=console.log('el total es de $'+total)
+        }
+    }
+}
+if(cantidad>0){
+    solicitarOtroProducto= prompt('desea solicitar otro producto?')
+}
+if(solicitarOtroProducto != 'FIN'){
+    if(solicitarOtroProducto == 'azucar'){
+        cantidad = parseInt(prompt('ingrese la cantidad deseada'));
+        if(cantidad>0){
+            total = cantidad*azucar
+            resultado=console.log('el total es de $'+total)
+        }
+    }
+}
+}
+
+*/
+
+
+
+/*                                                APROBADO
 let cantidad = 0;
 let total = 0
-let lista=0;
-
-
 
 let fideos = 200;
 let galletitas = 100;
 let queso = 300;
+
+
 
 alert('bienvenido a la tienda en stock tenemos fideos, galletitas y queso, al finalizar la compra ingrese FIN');
 while(true){
@@ -19,7 +140,6 @@ if(productos == 'fideos'){
     cantidad = parseInt(prompt('ingrese cantida deseada'))
     if(cantidad > 0){
     total = alert('total $'+cantidad*fideos)
-       lista=console.log('fideos $'+productos*cantidad)
     }
     }
 
@@ -41,11 +161,7 @@ else if(productos == 'queso'){
     }
 
 }
-
-
-
-    
-
+*/
 
     /*                         idea 1
     

@@ -12,7 +12,8 @@
 
 //          declaracion de una funciuon
 
-/*function saludar();{
+/*
+function saludar();{
     console.log('hola');
 }
 */
