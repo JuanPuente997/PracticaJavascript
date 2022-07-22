@@ -14,23 +14,23 @@ const productos=[{
     let ingreseUnElemento = prompt('ingrese un producto luego escriba FIN');
     
     if(ingreseUnElemento != 'FIN'){
-            cantidad=0;
-            cantidad = parseInt(prompt('ingrese la cantidad deseada'))
+            //let cantidad=0;
+            let cantidad = parseInt(prompt('ingrese la cantidad deseada'))
             if(cantidad > 0){
                 alert('anotado '+ ingreseUnElemento+' '+cantidad);
-                carrito(ingreseUnElemento+' '+cantidad);
+                carrito(ingreseUnElemento,cantidad);
             } 
             while(true){
-            agregarOtro = prompt('ingrese otro producto')
+            let agregarOtro = prompt('ingrese otro producto')
             if(agregarOtro =='FIN'){
                 alert('fin de la compra')
-                console.log('total final ='+cantidad+otraCantidad);
+                console.log('compra finalizada')
                 break;
             }
-            otraCantidad = parseInt(prompt('ingrese la cantidad deseada'))
+            let otraCantidad = parseInt(prompt('ingrese la cantidad deseada'))
                 if(otraCantidad > 0){
                     alert('anotado '+agregarOtro+' '+otraCantidad);
-                    carrito(agregarOtro + otraCantidad);
+                    carrito(agregarOtro,otraCantidad);
                 }
             }
             

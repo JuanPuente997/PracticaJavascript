@@ -2,7 +2,7 @@
 //es aquella que recibe como parametro o retorna una funcion
 
 /*
-function mayorQie(n){
+function mayorQue(n){
     return(m)=>m>n
 }
 
@@ -20,7 +20,7 @@ console.log(mayorQueDiez(8));  // false
 //some()      
 //map()       recorrer y crear uno nuevo
 //reduce()    para poder sumar en un acumulador
-//sort()      ordenar los elementos de mayoy a menor o lo contrario
+//sort()      ordenar los elementos de mayo a menor o lo contrario
 //        forEach()
 /*
 const productos =['zapas','remeras', 'ojotas']
