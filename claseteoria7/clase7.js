@@ -40,6 +40,9 @@ nombre:'jamon',
 precio:130,
 }]
 
+const result = productos.filter(blacky => blacky.precio <= 200 );
+console.log(result);
+
 function filtro(elemento){
     productos[precio]
     if(precio<=200){
