@@ -57,9 +57,14 @@ function imprimir(impUno){
 }
 
 let ingreso=prompt('ingrese el primer producto');
+
 while(true){
-    
+    if(ingreso =='FIN'){
+        alert('no seleccionaste ningun producto');
+        break;
+    }
 if(ingreso =='fideos'){
+    
     ingreso = carrito(productos[0]);
     imprimir(`<div><h3>fideos</h3></div>`)
 }
