@@ -1,11 +1,23 @@
 //                  EVENETOS
 // los eventos son la manera que tenemos en js de controlar las acciones del usuario y definir el comportamiento de la pagina o aplicacion cuando se produzca 
 // js nos permite escuchar eventos sobre elementos seleccionados. cuando escuchamos el evento que esperamos, se ejecuta la funcion que definimos en respuesta. a esta escucha se la denomina event listener
+            
+//document.getElementById("nombreDelId");
+//document.querySelector(". o # dependiendoElSelectorQueQuieraLlamar")
 
 //         COMO DEFINIR ESTOS EVENTOS
 
-//addEventListener(nombreDelEvento,laFuncionDeRespuesta) permite definir que evento escuchar sobre cualquier elemento seleccionado
+// addEventListener ->permite definir que evento escuchar sobre cualquier elemento seleccionado 
+
+/*
+nombreDeLaVariable.addEventListener(nombreDelEvento, laFuncionDeRespuesta(respuestaClick))
+function respuestaClick(){
+console.log('respuesta evento');} 
+*/
+
 // coderback = laFuncionDeRespues -> funcion que se ejecuta despues de un evento
+
+
 //                  OPCION 1 
 /*
 <button id = ('btnPrincipal')>CLiCK</button>

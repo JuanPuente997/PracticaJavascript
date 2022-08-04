@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+};
+#estilosDeCuerpo{
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#tituloH1{
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.centrarLista{
+    display: flex;
+    justify-content: center;
+}
+.tituloProdcutos{
+    margin-bottom: 0;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}

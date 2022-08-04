@@ -19,3 +19,27 @@ arrDos.map(juan => juan.onclick=() =>{console.log('agregaste queso')});
 function respuestaCLick(){
     console.log('agregado')
 }*/
+
+
+
+//Otro ejemplo funcional de eventos (tiene sinergia con el archivo html de la clase 10 pero lo dejo aca para tener todo en un mismo lugar)
+
+/*
+function respuestaClickFideos(){
+    console.log('Fideos')
+}
+const agregarAlCarritoFideos = document.getElementById("botonUno")
+agregarAlCarritoFideos.addEventListener("click",respuestaClickFideos);
+
+function respuestaClickQueso(){
+    console.log('Queso')
+}
+const agregarAlCarritoQueso = document.getElementById("botonDos")
+agregarAlCarritoQueso.addEventListener("click",respuestaClickQueso);
+
+function respuestaClickgalletitas(){
+    console.log('galletitas')
+}
+const agregarAlCarritoGalletitas = document.getElementById("botonTres")
+agregarAlCarritoGalletitas.addEventListener("click",respuestaClickgalletitas);
+*/
