@@ -7,21 +7,26 @@ const productos=[
 ];
 
 
-
-function respuestaClickFideos(){
-    console.log('Fideos')}
+function respuestaClickFideos(trago){
+    console.log('Fideos')
+    swal ( " Agregaste Fideos!! " ) ;
+}
 const agregarAlCarritoFideos = document.getElementById("botonUno")
 agregarAlCarritoFideos.addEventListener("click",respuestaClickFideos);
 
 
 function respuestaClickQueso(){
-    console.log('Queso')}
+    console.log('Queso')
+    swal ( " Agregaste Queso!! " ) ;
+}
 const agregarAlCarritoQueso = document.getElementById("botonDos")
 agregarAlCarritoQueso.addEventListener("click",respuestaClickQueso);
 
 
 function respuestaClickgalletitas(){
-    console.log('galletitas')}
+    console.log('galletitas')
+    swal ( " Agregaste Galletitas!! " ) ;
+}
 const agregarAlCarritoGalletitas = document.getElementById("botonTres")
 agregarAlCarritoGalletitas.addEventListener("click",respuestaClickgalletitas);
 
@@ -43,32 +48,3 @@ let agregarTres = document.getElementById("botonTres").addEventListener('click',
 })
 
 let contadorTres =1;
-
-
-
-
-
-
-//seter
-/*
-for(producto of productos){
-    let contenedor = document.createElement("div");
-    contenedor.innerHTML = `<h3>${producto.name}</h3>
-    <p>${producto.price}</p>
-`;
-document.body.appendChild(contenedor)
-}
-*/
-
-
-/*                           ASI COMO ESTA FUNCIONA
-function respuestaClick(){
-    console.log('agregado')
-}
-const agregarAlCarrito = document.getElementById("boton")
-//console.log(boton)
-//boton.onclick = respuestaClick;
-agregarAlCarrito.addEventListener("click",respuestaClick);
-*/
-
-//                          Solucion
