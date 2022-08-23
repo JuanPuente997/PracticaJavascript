@@ -1,0 +1,7 @@
+[
+    {"id":5, "title": "pan", "price":120},
+    {"id":6, "title": "manteca", "price":180},
+    {"id":7, "title": "leche", "price":130},
+    {"id":8, "title": "harina", "price":100}
+    
+]
